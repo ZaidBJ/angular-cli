@@ -5,8 +5,7 @@ declare const bar: any;
 @Component({
   selector: 'app-head',
   templateUrl: './head.component.html',
-  styleUrls: ['./head.component.css',
-  '../../../node_modules/bootstrap/dist/css/bootstrap.min.css']
+  styleUrls: ['./head.component.css']
 })
 export class HeadComponent implements OnInit {
   public Data : any;
